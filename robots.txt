@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+
+# Block access to certain directories and files
+Disallow: /assets/js/
+Disallow: /assets/css/
+Disallow: /*.min.js
+Disallow: /*.min.css
+
+# Allow CSS and JS for better rendering
+Allow: /style.css
+Allow: /assets/css/
+Allow: /assets/js/
+
+# Sitemap location
+Sitemap: https://reconciletech.com/sitemap.xml
+
+# Crawl delay
+Crawl-delay: 1
